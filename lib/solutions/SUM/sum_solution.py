@@ -1,3 +1,8 @@
 # noinspection PyShadowingBuiltins,PyUnusedLocal
 def compute(x, y):
-    raise NotImplementedError()
+    import random
+    x=random.randint(0,100)
+    y=random.randint(0,100)
+    return x+y
+
+
