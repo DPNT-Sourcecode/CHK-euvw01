@@ -55,7 +55,7 @@ def checkout(skus):
     elif c_gr%3==1:
         if c_X>0:
             p_gr=int(c_gr/3)*45+17
-        elif c_X==0&c_mp>0:
+        elif c_mp>0:
             p_gr = int(c_gr / 3) * 45+20
         else:
             p_gr=int(c_gr / 3) * 45+21
@@ -113,3 +113,4 @@ def checkout(skus):
         return -1
     else:
         return p_a+p_b+p_c+p_d+p_e+p_f+p_g+p_h+p_i+p_j+p_k+p_l+p_m+p_n+p_o+p_p+p_q+p_r+p_u+p_v+p_w+p_gr
+
