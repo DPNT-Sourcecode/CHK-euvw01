@@ -8,6 +8,7 @@ def checkout(skus):
     c_C=skus.count('C')
     c_D=skus.count('D')
     c_E=skus.count('E')
+    c_F=skus.count('F')
     total_c=len(skus)
 
     After_offer_c_B=c_B-int(c_E/2)
@@ -19,7 +20,9 @@ def checkout(skus):
     p_c=c_C*20
     p_d=c_D*15
     p_e=c_E*40
-    if c_A+c_B+c_C+c_D+c_E!=total_c:
+    p_f=int(c_F/3)*20+(c_F%3)*10
+    if c_A+c_B+c_C+c_D+c_E+c_F!=total_c:
         return -1
     else:
-        return p_a+p_b+p_c+p_d+p_e
+        return p_a+p_b+p_c+p_d+p_e+p_f
+
