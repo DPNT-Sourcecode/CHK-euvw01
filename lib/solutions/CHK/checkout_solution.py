@@ -77,4 +77,3 @@ def checkout(skus):
         return -1
     else:
         return p_a+p_b+p_c+p_d+p_e+p_f+p_g+p_h+p_i+p_j+p_k+p_l+p_m+p_n+p_o+p_p+p_q+p_r+p_s+p_t+p_u+p_v+p_w+p_x+p_y+p_z
-
