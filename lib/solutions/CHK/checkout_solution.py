@@ -25,4 +25,3 @@ def checkout(skus):
         return -1
     else:
         return p_a+p_b+p_c+p_d+p_e+p_f
-
