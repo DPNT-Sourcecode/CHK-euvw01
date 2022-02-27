@@ -73,7 +73,8 @@ def checkout(skus):
     p_z=c_Z*50
 
 
-    if c_A+c_B+c_C+c_D+c_E+c_F!=total_c:
+    if c_A+c_B+c_C+c_D+c_E+c_F+c_G+c_H+c_I+c_J+c_K+c_L+c_M+c_N+c_O+c_P+c_Q+c_R+c_S+c_T+c_U+c_V+c_W+c_X+c_Y+c_Z!=total_c:
         return -1
     else:
-        return p_a+p_b+p_c+p_d+p_e+p_f
+        return p_a+p_b+p_c+p_d+p_e+p_f+p_g+p_h+p_i+p_j+p_k+p_l+p_m+p_n+p_o+p_p+p_q+p_r+p_s+p_t+p_u+p_v+p_w+p_x+p_y+p_z
+
